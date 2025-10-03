@@ -14,3 +14,8 @@ A formal test harness is not yet configured. Add component or integration tests 
 
 ## Commit & Pull Request Guidelines
 Keep commits small and focused, using imperative subjects (e.g., `Add contact form handler`). Reference related tasks in the body when applicable. For pull requests, provide a concise summary, list validation steps (`npm run build`, manual checks), and attach before/after imagery for UI work. Ensure all new routes or assets are described so reviewers can navigate changes quickly.
+
+## 開発プロセス追加ガイドライン
+- 設計書、実装計画書を常に参照する。
+- 何か一つ機能を追加するたびにTypeScriptとESLint、テストがすべてパスすることを確認しコミットを行う。
+- 先にテストを書いてから実装を行うTDD形式で進める。
